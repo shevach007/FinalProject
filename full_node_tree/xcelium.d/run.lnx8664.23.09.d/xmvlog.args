@@ -5,11 +5,11 @@
 -XLMODE
 ./xcelium.d/run.lnx8664.23.09.d
 -RUNMODE
-full_node_tree.sv
+full_node_tree.v
 nodes.v
-encoder.sv
-sum_and_decoder.sv
-full_node_tree_tb.sv
+encoder.v
+sum_and_decoder.v
+full_node_tree_tb.v
 -CDSLIB
 ./xcelium.d/run.lnx8664.23.09.d/cdsrun.lib
 -HDLVAR

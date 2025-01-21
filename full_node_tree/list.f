@@ -1,5 +1,5 @@
-full_node_tree.sv
+full_node_tree.v
 nodes.v
-encoder.sv
-sum_and_decoder.sv
-full_node_tree_tb.sv
+encoder.v
+sum_and_decoder.v
+full_node_tree_tb.v

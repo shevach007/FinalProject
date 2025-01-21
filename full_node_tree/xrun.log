@@ -1,14 +1,15 @@
 xrun(64): 23.09-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	23.09-s013: Started on Dec 24, 2024 at 07:51:18 UTC
+TOOL:	xrun(64)	23.09-s013: Started on Jan 21, 2025 at 18:27:45 UTC
 xrun
 	-gui
 	-access rw
 	-f list.f
-		full_node_tree.sv
+		full_node_tree.v
 		nodes.v
-		encoder.sv
-		sum_and_decoder.sv
-		full_node_tree_tb.sv
+		encoder.v
+		sum_and_decoder.v
+		full_node_tree_tb.v
+	-s
 SOFTINCLUDE $XPEDION/aa/cds.lib
 |
 xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid environment variable ''.
@@ -33,6 +34,15 @@ xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid env
 SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
 |
 xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
+Recompiling... reason: file './full_node_tree.v' is newer than expected.
+	expected: Tue Jan 21 17:53:43 2025
+	actual:   Tue Jan 21 18:27:43 2025
 SOFTINCLUDE $XPEDION/aa/cds.lib
 |
 xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid environment variable ''.
@@ -45,26 +55,8 @@ xmvlog: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid e
 SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
 |
 xmvlog: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
-file: full_node_tree.sv
-	module worklib.Full_Node_Tree:sv
-		errors: 0, warnings: 0
-file: nodes.v
-	module worklib.LeftDownNode:v
-		errors: 0, warnings: 0
-	module worklib.GeneralNode:v
-		errors: 0, warnings: 0
-	module worklib.RightDiagonalNode:v
-		errors: 0, warnings: 0
-	module worklib.startNode:v
-		errors: 0, warnings: 0
-file: encoder.sv
-	module worklib.Encoder:sv
-		errors: 0, warnings: 0
-file: sum_and_decoder.sv
-	module worklib.Decoder:sv
-		errors: 0, warnings: 0
-file: full_node_tree_tb.sv
-	module worklib.Full_Node_Tree_tb:sv
+file: full_node_tree.v
+	module worklib.Full_Node_Tree:v
 		errors: 0, warnings: 0
 	Total errors/warnings found outside modules and primitives:
 		errors: 0, warnings: 2
@@ -88,23 +80,37 @@ SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
 xmelab: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
+    ) fullNodeTree (
+                 |
+xmelab: *W,CUVWSP (./full_node_tree_tb.v,24|17): 1 output port was not connected:
+xmelab: (./full_node_tree.v,11): subset
+
 	Top level design units:
 		Full_Node_Tree_tb
                   LeftDownNode left_node (
                                        |
-xmelab: *W,CUVWSP (./full_node_tree.sv,69|39): 1 output port was not connected:
+xmelab: *W,CUVWSP (./full_node_tree.v,80|39): 1 output port was not connected:
 xmelab: (./nodes.v,8): d_next
 
                   GeneralNode general_node (
                                          |
-xmelab: *W,CUVWSP (./full_node_tree.sv,86|41): 1 output port was not connected:
+xmelab: *W,CUVWSP (./full_node_tree.v,97|41): 1 output port was not connected:
 xmelab: (./nodes.v,23): d_next
 
                   RightDiagonalNode right_node (
                                              |
-xmelab: *W,CUVWSP (./full_node_tree.sv,103|45): 1 output port was not connected:
+xmelab: *W,CUVWSP (./full_node_tree.v,114|45): 1 output port was not connected:
 xmelab: (./nodes.v,38): d_next
 
+        .target(target),
+                     |
+xmelab: *W,CUVMPW (./full_node_tree_tb.v,27|21): port sizes differ in port connection(7/6) for the instance(Full_Node_Tree_tb) .
+        .y(last_signals)
+                      |
+xmelab: *W,CUVMPW (./full_node_tree.v,41|22): port sizes differ in port connection(45/48) for the instance(Full_Node_Tree_tb.fullNodeTree) .
+        .encoded_output(control_signals)
+                                      |
+xmelab: *W,CUVMPW (./full_node_tree.v,47|38): port sizes differ in port connection(45/46) for the instance(Full_Node_Tree_tb.fullNodeTree) .
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
 SOFTINCLUDE $XPEDION/aa/cds.lib
@@ -113,37 +119,23 @@ xmvlog_cg: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invali
 SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
 |
 xmvlog_cg: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
-		worklib.startNode:v <0x05fb3944>
-			streams:   2, words:   507
-		worklib.LeftDownNode:v <0x0f2e0de3>
-			streams:   0, words:     0
-		worklib.GeneralNode:v <0x2f4e41ae>
-			streams:   0, words:     0
-		worklib.RightDiagonalNode:v <0x488ee75d>
-			streams:   0, words:     0
-		worklib.Encoder:sv <0x011320d0>
-			streams:   2, words:  2054
-		worklib.Decoder:sv <0x3f654543>
-			streams:   2, words:  1802
-		worklib.Full_Node_Tree_tb:sv <0x3ea6753d>
-			streams:   7, words:  8092
-		worklib.Full_Node_Tree:sv <0x4f2f1e31>
-			streams:   5, words:  1396
+		worklib.Full_Node_Tree:v <0x0c46c86a>
+			streams:   9, words:  6728
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
-		                 Instances  Unique
-		Modules:              3244       8
-		Registers:              20      20
-		Scalar wires:        12967       -
-		Expanded wires:        160       2
-		Vectored wires:          3       -
-		Always blocks:           4       4
-		Initial blocks:          1       1
-		Cont. assignments:       3      12
-		Pseudo assignments:      4       -
-		Process Clocks:          1       1
-	Writing initial simulation snapshot: worklib.Full_Node_Tree_tb:sv
+		                Instances  Unique
+		Modules:             1039       8
+		Registers:             25      25
+		Scalar wires:        4145       -
+		Expanded wires:        94       2
+		Vectored wires:        13       -
+		Always blocks:          5       5
+		Initial blocks:         1       1
+		Cont. assignments:     14      16
+		Pseudo assignments:     4       -
+		Process Clocks:         1       1
+	Writing initial simulation snapshot: worklib.Full_Node_Tree_tb:v
 SOFTINCLUDE $XPEDION/aa/cds.lib
 |
 xmsim: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid environment variable ''.
@@ -151,24 +143,67 @@ SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
 |
 xmsim: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
 xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
-
--------------------------------------
-Relinquished control to SimVision...
 xcelium> 
 xcelium> source /tools/cadence/XCELIUM/23.09.013/tools/xcelium/files/xmsimrc
+xcelium> 
+-------------------------------------
+Relinquished control to SimVision...
+# Restoring simulation environment...
+xcelium> input -quiet .reinvoke.sim
+xcelium> file delete .reinvoke.sim
 xcelium> run
 Starting simulation...
-Starting Test 1:
+Starting Test 2:
+main while row:          44, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          43, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          42, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          41, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          40, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          39, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          38, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          37, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          36, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          35, column:          22 d:0 control: 0, ssp_num:  0
+main while row:          34, column:          22 d:1 control: 1, ssp_num:  0
+main while row:          33, column:          21 d:1 control: 0, ssp_num:  1
+main while row:          32, column:          20 d:1 control: 0, ssp_num:  2
+main while row:          31, column:          19 d:1 control: 0, ssp_num:  3
+main while row:          30, column:          18 d:1 control: 0, ssp_num:  4
+main while row:          29, column:          17 d:1 control: 0, ssp_num:  5
+main while row:          28, column:          16 d:1 control: 0, ssp_num:  6
+main while row:          27, column:          15 d:1 control: 0, ssp_num:  7
+main while row:          26, column:          14 d:1 control: 1, ssp_num:  8
+ssp_num:  8
+main while row:          25, column:          13 d:1 control: 0, ssp_num:  1
+main while row:          24, column:          12 d:1 control: 0, ssp_num:  2
+main while row:          23, column:          11 d:1 control: 0, ssp_num:  3
+main while row:          22, column:          10 d:1 control: 0, ssp_num:  4
+main while row:          21, column:           9 d:1 control: 0, ssp_num:  5
+main while row:          20, column:           8 d:1 control: 0, ssp_num:  6
+main while row:          19, column:           7 d:1 control: 0, ssp_num:  7
+main while row:          18, column:           6 d:1 control: 0, ssp_num:  8
+main while row:          17, column:           5 d:1 control: 0, ssp_num:  9
+main while row:          16, column:           4 d:1 control: 0, ssp_num: 10
+main while row:          15, column:           3 d:1 control: 0, ssp_num: 11
+main while row:          14, column:           2 d:1 control: 0, ssp_num: 12
+main while row:          13, column:           1 d:1 control: 0, ssp_num: 13
+main while row:          12, column:           0 d:z control: 1, ssp_num: 14
+ssp_num: 14
+main while row:          11, column:           0 d:z control: 0, ssp_num:  0
+main while row:          10, column:           0 d:z control: 0, ssp_num:  0
+main while row:           9, column:           0 d:z control: 0, ssp_num:  0
+main while row:           8, column:           0 d:z control: 0, ssp_num:  0
+main while row:           7, column:           0 d:z control: 0, ssp_num:  0
+main while row:           6, column:           0 d:z control: 0, ssp_num:  0
+main while row:           5, column:           0 d:z control: 0, ssp_num:  0
+main while row:           4, column:           0 d:z control: 0, ssp_num:  0
+main while row:           3, column:           0 d:z control: 0, ssp_num:  0
+main while row:           2, column:           0 d:z control: 0, ssp_num:  0
+main while row:           1, column:           0 d:z control: 0, ssp_num:  0
+main while row:           0, column:           0 d:1 control: 0, ssp_num:  0
 start verification...
 Test passed: isTargetMet=1
 Testbench completed
 Simulation complete via $finish(1) at time 16 NS + 0
-./full_node_tree_tb.sv:102         $finish;
-xcelium> run
-xmsim: *E,RNFNSH: Cannot continue simulation due to a previous $finish.
-xcelium> run
-xmsim: *E,RNFNSH: Cannot continue simulation due to a previous $finish.
-xcelium> ^C
-xcelium> ^C
-xcelium> exit
-TOOL:	xrun(64)	23.09-s013: Exiting on Dec 24, 2024 at 07:56:47 UTC  (total: 00:05:29)
+./full_node_tree_tb.v:110         $finish;
+xcelium> 

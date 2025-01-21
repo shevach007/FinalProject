@@ -1,0 +1,15 @@
+/tools/cadence/XCELIUM/23.09.013/tools.lnx86/inca/bin/64bit/xrun
+Obtained 13 stack frames.
+/tools/cadence/XCELIUM/23.09.013/tools.lnx86/inca/bin/64bit/../../../lib/64bit/libcbreakpad.so(_Z13use_backtracev+0x9d) [0x7fce24aa61a3]
+/tools/cadence/XCELIUM/23.09.013/tools.lnx86/inca/bin/64bit/../../../lib/64bit/libcbreakpad.so(cbpad_generate_dump_on_demand+0x66) [0x7fce24aa6630]
+xrun() [0x945819]
+xrun() [0x9475c5]
+xrun() [0x9462c9]
+xrun() [0x9475c5]
+xrun() [0x8cf81f]
+xrun() [0x8d055d]
+xrun() [0x4c606b]
+xrun(ncmain+0x32c) [0x55783c]
+xrun(main+0x9) [0x4a4e49]
+/lib64/libc.so.6(__libc_start_main+0xea) [0x7fce24b0413a]
+xrun() [0x4a4e79]

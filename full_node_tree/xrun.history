@@ -1,1 +1,262 @@
 s1(24Dec2024:07:51:19):  xrun -gui -access rw -f list.f 
+s2(01Jan2025:13:46:44):  xrun -gui -access rw -f list.f 
+s3(01Jan2025:13:48:55):  xrun -gui -access rw -f list.f "-s " 
+s4(01Jan2025:13:50:33):  xrun -gui -access rw -f list.f -s 
+s5(01Jan2025:14:27:13):  xrun -gui -access rw -f list.f -s 
+s6(01Jan2025:14:27:27):  xrun -gui -access rw -f list.f -s 
+s7(01Jan2025:14:27:47):  xrun -gui -access rw -f list.f -s 
+s8(01Jan2025:14:30:25):  xrun -gui -access rw -f list.f -s 
+s9(01Jan2025:14:37:12):  xrun -gui -access rw -f list.f -s 
+s10(02Jan2025:06:19:23):  xrun -gui -access rw -f list.f 
+s11(02Jan2025:06:19:54):  xrun -gui -access rw -f list.f 
+s12(02Jan2025:06:20:30):  xrun -gui -access rw -f list.f 
+s13(02Jan2025:06:28:05):  xrun -gui -access rw -f list.f 
+s14(02Jan2025:06:38:22):  xrun -gui -access rw -f list.f 
+s15(02Jan2025:06:41:05):  xrun -gui -access rw -f list.f 
+s16(02Jan2025:06:42:44):  xrun -gui -access rw -f list.f 
+s17(02Jan2025:06:43:08):  xrun -gui -access rw -f list.f 
+s18(02Jan2025:08:45:52):  xrun -gui -access rw -f list.f 
+s19(02Jan2025:08:51:26):  xrun -gui -access rw -f list.f 
+s20(02Jan2025:08:53:24):  xrun -gui -access rw -f list.f 
+s21(02Jan2025:08:56:45):  xrun -gui -access rw -f list.f 
+s22(02Jan2025:09:00:32):  xrun -gui -access rw -f list.f 
+s23(02Jan2025:09:06:08):  xrun -gui -access rw -f list.f 
+s24(02Jan2025:09:09:42):  xrun -gui -access rw -f list.f 
+s25(02Jan2025:09:16:18):  xrun -gui -access rw -f list.f 
+s26(02Jan2025:09:38:02):  xrun -gui -access rw -f list.f 
+s27(02Jan2025:09:39:01):  xrun -gui -access rw -f list.f 
+s28(02Jan2025:09:44:44):  xrun -gui -access rw -f list.f 
+s29(02Jan2025:09:51:38):  xrun -gui -access rw -f list.f 
+s30(02Jan2025:09:53:56):  xrun -gui -access rw -f list.f 
+s31(02Jan2025:10:25:07):  xrun -gui -access rw -f list.f 
+s32(02Jan2025:10:29:03):  xrun -gui -access rw -f list.f 
+s33(02Jan2025:10:29:57):  xrun -gui -access rw -f list.f 
+s34(02Jan2025:10:31:24):  xrun -gui -access rw -f list.f 
+s35(02Jan2025:10:36:30):  xrun -gui -access rw -f list.f 
+s36(02Jan2025:10:39:33):  xrun -gui -access rw -f list.f 
+s37(02Jan2025:10:42:13):  xrun -gui -access rw -f list.f 
+s38(02Jan2025:10:43:22):  xrun -gui -access rw -f list.f 
+s39(02Jan2025:10:44:25):  xrun -gui -access rw -f list.f 
+s40(02Jan2025:10:45:14):  xrun -gui -access rw -f list.f 
+s41(02Jan2025:10:48:02):  xrun -gui -access rw -f list.f 
+s42(02Jan2025:10:48:34):  xrun -gui -access rw -f list.f 
+s43(02Jan2025:10:53:58):  xrun -gui -access rw -f list.f 
+s44(02Jan2025:10:57:25):  xrun -gui -access rw -f list.f 
+s45(02Jan2025:10:58:37):  xrun -gui -access rw -f list.f 
+s46(02Jan2025:10:59:22):  xrun -gui -access rw -f list.f 
+s47(02Jan2025:11:05:25):  xrun -gui -access rw -f list.f 
+s48(02Jan2025:11:07:41):  xrun -f list.f -access +rwc -gui 
+s49(07Jan2025:18:36:01):  xrun -f list.f 
+s50(07Jan2025:18:36:32):  xrun -f list.f 
+s51(07Jan2025:18:37:51):  xrun -gui -access rw -f list.f 
+s52(07Jan2025:18:40:45):  xrun -gui -access rw -f list.f 
+s53(07Jan2025:18:42:23):  xrun -f list.f -access +r 
+s54(07Jan2025:18:44:02):  xrun -f list.f -access +r 
+s55(07Jan2025:18:45:31):  xrun -f list.f -access +r -gui 
+s56(07Jan2025:19:28:58):  xrun -f list.f -access +r -gui "-s " 
+s57(07Jan2025:19:38:40):  xrun -f list.f -access +r -gui 
+s58(07Jan2025:20:29:16):  xrun -f list.f -access +r -gui "-s " 
+s59(07Jan2025:20:29:47):  xrun -f list.f -access +r -gui -s 
+s60(07Jan2025:20:30:18):  xrun -f list.f -access +r -gui 
+s61(07Jan2025:20:34:59):  xrun -f list.f -access +r -gui 
+s62(07Jan2025:20:37:11):  xrun -f list.f -access +r -gui 
+s63(07Jan2025:20:37:52):  xrun -f list.f -access +r -gui 
+s64(07Jan2025:20:41:38):  xrun -f list.f -access +r -gui 
+s65(07Jan2025:20:45:31):  xrun -f list.f -access +r -gui 
+s66(07Jan2025:20:53:01):  xrun -f list.f -access +r -gui 
+s67(07Jan2025:20:53:17):  xrun -f list.f -access +r -gui 
+s68(07Jan2025:21:17:32):  xrun -f list.f -access +r -gui 
+s69(07Jan2025:21:18:31):  xrun -f list.f -access +r -gui 
+s70(07Jan2025:21:19:17):  xrun -f list.f -access +r -gui 
+s71(07Jan2025:21:20:40):  xrun -f list.f -access +r -gui 
+s72(07Jan2025:21:22:26):  xrun -f list.f -access +r -gui 
+s73(07Jan2025:21:23:56):  xrun -f list.f -access +r -gui "-s " 
+s74(15Jan2025:18:46:07):  xrun gui -access rw -f list.f 
+s75(15Jan2025:18:47:13):  xrun -gui -access rw -f list.f 
+s76(15Jan2025:19:11:51):  xrun -gui -access rw -f list.f 
+s77(15Jan2025:19:12:47):  xrun -gui -access rw -f list.f 
+s78(15Jan2025:19:15:59):  xrun -gui -access rw -f list.f 
+s79(15Jan2025:19:20:57):  xrun -gui -access rw -f list.f 
+s80(15Jan2025:19:25:05):  xrun -gui -access rw -f list.f "-s " 
+s81(15Jan2025:19:25:27):  xrun -gui -access rw -f list.f -s 
+s82(15Jan2025:19:25:42):  xrun -gui -access rw -f list.f -s 
+s83(15Jan2025:19:26:52):  xrun -gui -access rw -f list.f -s 
+s84(15Jan2025:19:29:30):  xrun -gui -access rw -f list.f -s 
+s85(15Jan2025:19:30:03):  xrun -gui -access rw -f list.f -s 
+s86(15Jan2025:20:14:23):  xrun -gui -access rw -f list.f -s 
+s87(15Jan2025:20:14:39):  xrun -gui -access rw -f list.f 
+s88(15Jan2025:20:15:29):  xrun -gui -access rw -f list.f 
+s89(15Jan2025:20:17:44):  xrun -gui -access rw -f list.f 
+s90(15Jan2025:20:19:54):  xrun -gui -access rw -f list.f "-s " 
+s91(15Jan2025:20:20:55):  xrun -gui -access rw -f list.f -s 
+s92(15Jan2025:20:38:47):  xrun -gui -access rw -f list.f -s 
+s93(15Jan2025:20:39:20):  xrun -gui -access rw -f list.f -s 
+s94(15Jan2025:20:39:51):  xrun -gui -access rw -f list.f 
+s95(15Jan2025:20:40:56):  xrun -gui -access rw -f list.f 
+s96(15Jan2025:20:41:47):  xrun -gui -access rw -f list.f 
+s97(15Jan2025:21:15:20):  xrun -gui -access rw -f list.f "-s " 
+s98(15Jan2025:21:15:38):  xrun -gui -access rw -f list.f "-s " 
+s99(15Jan2025:21:16:19):  xrun -gui -access rw -f list.f "-s " 
+s100(15Jan2025:21:17:40):  xrun -gui -access rw -f list.f "-s " 
+s101(15Jan2025:21:17:58):  xrun -gui -access rw -f list.f "-s " 
+s102(15Jan2025:21:19:08):  xrun -gui -access rw -f list.f -s 
+s103(15Jan2025:21:19:34):  xrun -gui -access rw -f list.f -s 
+s104(15Jan2025:21:26:14):  xrun -gui -access rw -f list.f -s 
+s105(15Jan2025:21:28:03):  xrun -gui -access rw -f list.f -s 
+s106(15Jan2025:21:30:30):  xrun -gui -access rw -f list.f -s 
+s107(15Jan2025:21:31:23):  xrun -gui -access rw -f list.f -s 
+s108(15Jan2025:21:46:18):  xrun -gui -access rw -f list.f -s 
+s109(15Jan2025:21:47:43):  xrun -gui -access rw -f list.f -s 
+s110(15Jan2025:21:48:28):  xrun -gui -access rw -f list.f -s 
+s111(15Jan2025:22:00:42):  xrun -gui -access -f list.f 
+s112(15Jan2025:22:00:56):  xrun gui -access -f list.f 
+s113(16Jan2025:07:37:23):  xrun -gui -access rw -f list.f 
+s114(16Jan2025:07:42:19):  xrun -gui -access rw -f list.f 
+s115(16Jan2025:08:23:10):  xrun -gui -access rw -f list.f "-s " 
+s116(16Jan2025:08:43:06):  xrun -gui -access rw -f list.f -s 
+s117(16Jan2025:08:43:30):  xrun -gui -access rw -f list.f -s 
+s118(16Jan2025:08:46:34):  xrun -gui -access rw -f list.f -s 
+s119(16Jan2025:08:47:39):  xrun -gui -access rw -f list.f -s 
+s120(16Jan2025:08:50:02):  xrun -gui -access rw -f list.f -s 
+s121(16Jan2025:08:51:01):  xrun -gui -access rw -f list.f -s 
+s122(16Jan2025:08:53:32):  xrun -gui -access rw -f list.f -s 
+s123(16Jan2025:08:59:38):  xrun -gui -access rw -f list.f -s 
+s124(16Jan2025:09:00:30):  xrun -gui -access rw -f list.f -s 
+s125(16Jan2025:09:01:42):  xrun -gui -access rw -f list.f -s 
+s126(16Jan2025:09:02:34):  xrun -gui -access rw -f list.f -s 
+s127(16Jan2025:09:14:31):  xrun -gui -access rw -f list.f -s 
+s128(16Jan2025:09:31:52):  xrun -gui -access rw -f list.f -s 
+s129(16Jan2025:09:32:55):  xrun -gui -access rw -f list.f -s 
+s130(16Jan2025:09:33:49):  xrun -gui -access rw -f list.f -s 
+s131(16Jan2025:09:34:38):  xrun -gui -access rw -f list.f -s 
+s132(16Jan2025:09:35:43):  xrun -gui -access rw -f list.f -s 
+s133(16Jan2025:09:37:11):  xrun -gui -access rw -f list.f -s 
+s134(16Jan2025:09:39:07):  xrun -gui -access rw -f list.f -s 
+s135(16Jan2025:09:41:44):  xrun -gui -access rw -f list.f -s 
+s136(16Jan2025:09:48:22):  xrun -gui -access rw -f list.f -s 
+s137(16Jan2025:09:51:07):  xrun -gui -access rw -f list.f -s 
+s138(16Jan2025:09:52:28):  xrun -gui -access rw -f list.f -s 
+s139(16Jan2025:09:52:47):  xrun -gui -access rw -f list.f -s 
+s140(16Jan2025:09:53:54):  xrun -gui -access rw -f list.f -s 
+s141(16Jan2025:09:55:04):  xrun -gui -access rw -f list.f -s 
+s142(16Jan2025:09:56:42):  xrun -gui -access rw -f list.f -s 
+s143(16Jan2025:09:57:45):  xrun -gui -access rw -f list.f -s 
+s144(16Jan2025:09:58:53):  xrun -gui -access rw -f list.f -s 
+s145(16Jan2025:10:00:05):  xrun -gui -access rw -f list.f -s 
+s146(16Jan2025:10:01:06):  xrun -gui -access rw -f list.f -s 
+s147(16Jan2025:10:08:12):  xrun -gui -access rw -f list.f -s 
+s148(16Jan2025:10:08:28):  xrun -gui -access rw -f list.f -s 
+s149(16Jan2025:10:08:42):  xrun -gui -access rw -f list.f -s 
+s150(16Jan2025:10:13:27):  xrun -gui -access rw -f list.f -s 
+s151(16Jan2025:10:13:46):  xrun -gui -access rw -f list.f -s 
+s152(16Jan2025:10:14:11):  xrun -gui -access rw -f list.f -s 
+s153(16Jan2025:10:16:26):  xrun -gui -access rw -f list.f -s 
+s154(16Jan2025:10:16:55):  xrun -gui -access rw -f list.f -s 
+s155(16Jan2025:10:17:34):  xrun -gui -access rw -f list.f -s 
+s156(16Jan2025:10:19:23):  xrun -gui -access rw -f list.f -s 
+s157(16Jan2025:10:20:02):  xrun -gui -access rw -f list.f -s 
+s158(16Jan2025:10:20:18):  xrun -gui -access rw -f list.f -s 
+s159(16Jan2025:10:21:17):  xrun -gui -access rw -f list.f -s 
+s160(16Jan2025:10:22:18):  xrun -gui -access rw -f list.f -s 
+s161(16Jan2025:10:26:00):  xrun -gui -access rw -f list.f -s 
+s162(16Jan2025:10:29:44):  xrun -gui -access rw -f list.f -s 
+s163(16Jan2025:10:31:50):  xrun -gui -access rw -f list.f -s 
+s164(16Jan2025:10:32:17):  xrun -gui -access rw -f list.f -s 
+s165(16Jan2025:10:35:43):  xrun -gui -access rw -f list.f -s 
+s166(16Jan2025:10:41:11):  xrun -gui -access rw -f list.f -s 
+s167(16Jan2025:10:43:03):  xrun -gui -access rw -f list.f -s 
+s168(16Jan2025:11:10:50):  xrun -gui -access rw -f list.f -s 
+s169(16Jan2025:11:11:48):  xrun -gui -access rw -f list.f -s 
+s170(16Jan2025:11:12:26):  xrun -gui -access rw -f list.f -s 
+s171(16Jan2025:11:14:50):  xrun -gui -access rw -f list.f -s 
+s172(16Jan2025:11:14:53):  xrun -gui -access rw -f list.f -s 
+s173(16Jan2025:11:15:11):  xrun -gui -access rw -f list.f -s 
+s174(16Jan2025:11:17:19):  xrun -gui -access rw -f list.f -s 
+s175(16Jan2025:11:18:27):  xrun -gui -access rw -f list.f -s 
+s176(16Jan2025:11:19:03):  xrun -gui -access rw -f list.f -s 
+s177(16Jan2025:11:20:03):  xrun -gui -access rw -f list.f -s 
+s178(16Jan2025:11:20:25):  xrun -gui -access rw -f list.f -s 
+s179(16Jan2025:11:20:54):  xrun -gui -access rw -f list.f -s 
+s180(16Jan2025:11:22:06):  xrun -gui -access rw -f list.f -s 
+s181(16Jan2025:11:22:28):  xrun -gui -access rw -f list.f -s 
+s182(16Jan2025:11:23:13):  xrun -gui -access rw -f list.f -s 
+s183(16Jan2025:11:24:02):  xrun -gui -access rw -f list.f -s 
+s184(16Jan2025:11:24:27):  xrun -gui -access rw -f list.f -s 
+s185(16Jan2025:11:24:46):  xrun -gui -access rw -f list.f -s 
+s186(16Jan2025:11:25:07):  xrun -gui -access rw -f list.f -s 
+s187(16Jan2025:11:27:28):  xrun -gui -access rw -f list.f -s 
+s188(16Jan2025:11:27:47):  xrun -gui -access rw -f list.f -s 
+s189(16Jan2025:11:28:07):  xrun -gui -access rw -f list.f -s 
+s190(16Jan2025:11:28:38):  xrun -gui -access rw -f list.f -s 
+s191(16Jan2025:11:29:03):  xrun -gui -access rw -f list.f -s 
+s192(16Jan2025:11:30:43):  xrun -gui -access rw -f list.f -s 
+s193(16Jan2025:11:30:59):  xrun -gui -access rw -f list.f -s 
+s194(16Jan2025:11:33:52):  xrun -gui -access rw -f list.f -s 
+s195(16Jan2025:11:35:44):  xrun -gui -access rw -f list.f -s 
+s196(16Jan2025:11:41:31):  xrun -gui -access rw -f list.f -s 
+s197(16Jan2025:12:19:19):  xrun -gui -access rw -f list.f -s 
+s198(16Jan2025:12:19:52):  xrun -gui -access rw -f list.f -s 
+s199(16Jan2025:12:20:23):  xrun -gui -access rw -f list.f -s 
+s200(16Jan2025:12:22:13):  xrun -gui -access rw -f list.f -s 
+s201(16Jan2025:12:22:31):  xrun -gui -access rw -f list.f -s 
+s202(16Jan2025:12:24:18):  xrun -gui -access rw -f list.f -s 
+s203(16Jan2025:12:25:26):  xrun -gui -access rw -f list.f -s 
+s204(16Jan2025:12:25:45):  xrun -gui -access rw -f list.f -s 
+s205(16Jan2025:12:26:04):  xrun -gui -access rw -f list.f -s 
+s206(16Jan2025:12:26:33):  xrun -gui -access rw -f list.f -s 
+s207(16Jan2025:12:27:17):  xrun -gui -access rw -f list.f -s 
+s208(16Jan2025:12:35:54):  xrun -gui -access rw -f list.f -s 
+s209(16Jan2025:12:38:20):  xrun -gui -access rw -f list.f -s 
+s210(16Jan2025:12:40:37):  xrun -gui -access rw -f list.f -s 
+s211(16Jan2025:12:41:10):  xrun -gui -access rw -f list.f 
+s212(16Jan2025:12:42:19):  xrun -gui -access rw -f list.f "-s " 
+s213(16Jan2025:12:43:00):  xrun -gui -access rw -f list.f -s 
+s214(16Jan2025:12:43:50):  xrun -gui -access rw -f list.f -s 
+s215(16Jan2025:12:44:36):  xrun -gui -access rw -f list.f -s 
+s216(16Jan2025:12:44:54):  xrun -gui -access rw -f list.f -s 
+s217(16Jan2025:12:45:15):  xrun -gui -access rw -f list.f -s 
+s218(16Jan2025:12:46:00):  xrun -gui -access rw -f list.f -s 
+s219(16Jan2025:12:47:12):  xrun -gui -access rw -f list.f -s 
+s220(16Jan2025:12:51:16):  xrun -gui -access rw -f list.f -s 
+s221(16Jan2025:12:52:32):  xrun -gui -access rw -f list.f -s 
+s222(16Jan2025:13:04:06):  xrun -gui -access rw -f list.f -s 
+s223(16Jan2025:13:07:14):  xrun -gui -access rw -f list.f -s 
+s224(21Jan2025:17:13:30):  xrun -gui -access rw -f list.f 
+s225(21Jan2025:17:14:27):  xrun -gui -access rw -f list.f "-s " 
+s226(21Jan2025:17:18:18):  xrun -gui -access rw -f list.f -s 
+s227(21Jan2025:17:18:50):  xrun -gui -access rw -f list.f -s 
+s228(21Jan2025:17:22:42):  xrun -gui -access rw -f list.f -s 
+s229(21Jan2025:17:23:08):  xrun -gui -access rw -f list.f -s 
+s230(21Jan2025:17:24:43):  xrun -gui -access rw -f list.f -s 
+s231(21Jan2025:17:25:05):  xrun -gui -access rw -f list.f -s 
+s232(21Jan2025:17:25:21):  xrun -gui -access rw -f list.f -s 
+s233(21Jan2025:17:25:35):  xrun -gui -access rw -f list.f -s 
+s234(21Jan2025:17:26:01):  xrun -gui -access rw -f list.f -s 
+s235(21Jan2025:17:26:13):  xrun -gui -access rw -f list.f -s 
+s236(21Jan2025:17:26:37):  xrun -gui -access rw -f list.f -s 
+s237(21Jan2025:17:27:41):  xrun -gui -access rw -f list.f -s 
+s238(21Jan2025:17:29:51):  xrun -gui -access rw -f list.f -s 
+s239(21Jan2025:17:32:02):  xrun -gui -access rw -f list.f -s 
+s240(21Jan2025:17:34:00):  xrun -gui -access rw -f list.f -s 
+s241(21Jan2025:17:41:06):  xrun -gui -access rw -f list.f -s 
+s242(21Jan2025:17:41:23):  xrun -gui -access rw -f list.f -s 
+s243(21Jan2025:17:42:44):  xrun -gui -access rw -f list.f -s 
+s244(21Jan2025:17:42:46):  xrun -gui -access rw -f list.f -s 
+s245(21Jan2025:17:42:58):  xrun -gui -access rw -f list.f -s 
+s246(21Jan2025:17:44:05):  xrun -gui -access rw -f list.f -s 
+s247(21Jan2025:17:45:22):  xrun -gui -access rw -f list.f -s 
+s248(21Jan2025:17:45:43):  xrun -gui -access rw -f list.f -s 
+s249(21Jan2025:17:48:46):  xrun -gui -access rw -f list.f 
+s250(21Jan2025:17:49:26):  xrun -gui -access rw -f list.f 
+s251(21Jan2025:17:52:34):  xrun -gui -access rw -f list.f "-s " 
+s252(21Jan2025:17:53:22):  xrun -gui -access rw -f list.f -s 
+s253(21Jan2025:17:53:47):  xrun -gui -access rw -f list.f -s 
+s254(21Jan2025:17:54:05):  xrun -gui -access rw -f list.f -s 
+s255(21Jan2025:17:54:17):  xrun -gui -access rw -f list.f -s 
+s256(21Jan2025:17:54:28):  xrun -gui -access rw -f list.f -s 
+s257(21Jan2025:17:55:07):  xrun -gui -access rw -f list.f -s 
+s258(21Jan2025:17:56:30):  xrun -gui -access rw -f list.f -s 
+s259(21Jan2025:18:00:33):  xrun -gui -access rw -f list.f -s 
+s260(21Jan2025:18:06:42):  xrun -gui -access rw -f list.f -s 
+s261(21Jan2025:18:27:36):  xrun -gui -access rw -f list.f -s 
+s262(21Jan2025:18:27:45):  xrun -gui -access rw -f list.f -s 
