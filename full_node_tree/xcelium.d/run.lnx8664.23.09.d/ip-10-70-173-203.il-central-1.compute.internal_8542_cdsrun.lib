@@ -1,0 +1,2 @@
+include ../../../../../../../../../../data/tsmc/65LP/pdk/1.7a/cds.lib
+define worklib ../worklib

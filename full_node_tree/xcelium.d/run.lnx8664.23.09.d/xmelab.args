@@ -2,8 +2,9 @@
 // File created by:  xrun
 // Do not modify this file
 //
++gui
 -ACCESS
-rw
++r
 -no_analogsolver
 -MESSAGES
 -XLMODE

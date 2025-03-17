@@ -1,14 +1,15 @@
 xrun(64): 23.09-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	23.09-s013: Started on Jan 21, 2025 at 18:27:45 UTC
+TOOL:	xrun(64)	23.09-s013: Started on Mar 17, 2025 at 19:46:34 UTC
 xrun
-	-gui
-	-access rw
 	-f list.f
 		full_node_tree.v
 		nodes.v
 		encoder.v
 		sum_and_decoder.v
 		full_node_tree_tb.v
+	-access +r
+	+gui
+	-sv
 	-s
 SOFTINCLUDE $XPEDION/aa/cds.lib
 |
@@ -34,15 +35,9 @@ xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid env
 SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
 |
 xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
-SOFTINCLUDE $XPEDION/aa/cds.lib
-|
-xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid environment variable ''.
-SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
-|
-xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
 Recompiling... reason: file './full_node_tree.v' is newer than expected.
-	expected: Tue Jan 21 17:53:43 2025
-	actual:   Tue Jan 21 18:27:43 2025
+	expected: Mon Mar 17 19:45:52 2025
+	actual:   Mon Mar 17 19:46:29 2025
 SOFTINCLUDE $XPEDION/aa/cds.lib
 |
 xrun: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invalid environment variable ''.
@@ -89,28 +84,28 @@ xmelab: (./full_node_tree.v,11): subset
 		Full_Node_Tree_tb
                   LeftDownNode left_node (
                                        |
-xmelab: *W,CUVWSP (./full_node_tree.v,80|39): 1 output port was not connected:
+xmelab: *W,CUVWSP (./full_node_tree.v,73|39): 1 output port was not connected:
 xmelab: (./nodes.v,8): d_next
 
                   GeneralNode general_node (
                                          |
-xmelab: *W,CUVWSP (./full_node_tree.v,97|41): 1 output port was not connected:
+xmelab: *W,CUVWSP (./full_node_tree.v,90|41): 1 output port was not connected:
 xmelab: (./nodes.v,23): d_next
 
                   RightDiagonalNode right_node (
                                              |
-xmelab: *W,CUVWSP (./full_node_tree.v,114|45): 1 output port was not connected:
+xmelab: *W,CUVWSP (./full_node_tree.v,107|45): 1 output port was not connected:
 xmelab: (./nodes.v,38): d_next
 
         .target(target),
                      |
-xmelab: *W,CUVMPW (./full_node_tree_tb.v,27|21): port sizes differ in port connection(7/6) for the instance(Full_Node_Tree_tb) .
+xmelab: *W,CUVMPW (./full_node_tree_tb.v,27|21): port sizes differ in port connection(8/7) for the instance(Full_Node_Tree_tb) .
         .y(last_signals)
                       |
-xmelab: *W,CUVMPW (./full_node_tree.v,41|22): port sizes differ in port connection(45/48) for the instance(Full_Node_Tree_tb.fullNodeTree) .
+xmelab: *W,CUVMPW (./full_node_tree.v,33|22): port sizes differ in port connection(75/80) for the instance(Full_Node_Tree_tb.fullNodeTree) .
         .encoded_output(control_signals)
                                       |
-xmelab: *W,CUVMPW (./full_node_tree.v,47|38): port sizes differ in port connection(45/46) for the instance(Full_Node_Tree_tb.fullNodeTree) .
+xmelab: *W,CUVMPW (./full_node_tree.v,39|38): port sizes differ in port connection(75/76) for the instance(Full_Node_Tree_tb.fullNodeTree) .
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
 SOFTINCLUDE $XPEDION/aa/cds.lib
@@ -119,21 +114,21 @@ xmvlog_cg: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,12): cds.lib Invali
 SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
 |
 xmvlog_cg: *W,DLCVAR (/tools/rccad/RC2SKILL/1.0/cds.site.lib,14): cds.lib Invalid environment variable ''.
-		worklib.Full_Node_Tree:v <0x0c46c86a>
-			streams:   9, words:  6728
+		worklib.Full_Node_Tree:v <0x1e1c8f11>
+			streams:   7, words:  5236
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                Instances  Unique
-		Modules:             1039       8
-		Registers:             25      25
-		Scalar wires:        4145       -
-		Expanded wires:        94       2
+		Modules:             2854       8
+		Registers:             24      24
+		Scalar wires:        5707       -
+		Expanded wires:       156       2
 		Vectored wires:        13       -
 		Always blocks:          5       5
 		Initial blocks:         1       1
-		Cont. assignments:     14      16
-		Pseudo assignments:     4       -
+		Cont. assignments:     15      13
+		Pseudo assignments:     2       -
 		Process Clocks:         1       1
 	Writing initial simulation snapshot: worklib.Full_Node_Tree_tb:v
 SOFTINCLUDE $XPEDION/aa/cds.lib
@@ -154,56 +149,13 @@ xcelium> file delete .reinvoke.sim
 xcelium> run
 Starting simulation...
 Starting Test 2:
-main while row:          44, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          43, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          42, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          41, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          40, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          39, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          38, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          37, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          36, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          35, column:          22 d:0 control: 0, ssp_num:  0
-main while row:          34, column:          22 d:1 control: 1, ssp_num:  0
-main while row:          33, column:          21 d:1 control: 0, ssp_num:  1
-main while row:          32, column:          20 d:1 control: 0, ssp_num:  2
-main while row:          31, column:          19 d:1 control: 0, ssp_num:  3
-main while row:          30, column:          18 d:1 control: 0, ssp_num:  4
-main while row:          29, column:          17 d:1 control: 0, ssp_num:  5
-main while row:          28, column:          16 d:1 control: 0, ssp_num:  6
-main while row:          27, column:          15 d:1 control: 0, ssp_num:  7
-main while row:          26, column:          14 d:1 control: 1, ssp_num:  8
 ssp_num:  8
-main while row:          25, column:          13 d:1 control: 0, ssp_num:  1
-main while row:          24, column:          12 d:1 control: 0, ssp_num:  2
-main while row:          23, column:          11 d:1 control: 0, ssp_num:  3
-main while row:          22, column:          10 d:1 control: 0, ssp_num:  4
-main while row:          21, column:           9 d:1 control: 0, ssp_num:  5
-main while row:          20, column:           8 d:1 control: 0, ssp_num:  6
-main while row:          19, column:           7 d:1 control: 0, ssp_num:  7
-main while row:          18, column:           6 d:1 control: 0, ssp_num:  8
-main while row:          17, column:           5 d:1 control: 0, ssp_num:  9
-main while row:          16, column:           4 d:1 control: 0, ssp_num: 10
-main while row:          15, column:           3 d:1 control: 0, ssp_num: 11
-main while row:          14, column:           2 d:1 control: 0, ssp_num: 12
-main while row:          13, column:           1 d:1 control: 0, ssp_num: 13
-main while row:          12, column:           0 d:z control: 1, ssp_num: 14
-ssp_num: 14
-main while row:          11, column:           0 d:z control: 0, ssp_num:  0
-main while row:          10, column:           0 d:z control: 0, ssp_num:  0
-main while row:           9, column:           0 d:z control: 0, ssp_num:  0
-main while row:           8, column:           0 d:z control: 0, ssp_num:  0
-main while row:           7, column:           0 d:z control: 0, ssp_num:  0
-main while row:           6, column:           0 d:z control: 0, ssp_num:  0
-main while row:           5, column:           0 d:z control: 0, ssp_num:  0
-main while row:           4, column:           0 d:z control: 0, ssp_num:  0
-main while row:           3, column:           0 d:z control: 0, ssp_num:  0
-main while row:           2, column:           0 d:z control: 0, ssp_num:  0
-main while row:           1, column:           0 d:z control: 0, ssp_num:  0
-main while row:           0, column:           0 d:1 control: 0, ssp_num:  0
+ssp_num: 12
 start verification...
 Test passed: isTargetMet=1
 Testbench completed
 Simulation complete via $finish(1) at time 16 NS + 0
 ./full_node_tree_tb.v:110         $finish;
-xcelium> 
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	23.09-s013: Exiting on Mar 17, 2025 at 19:49:00 UTC  (total: 00:02:26)

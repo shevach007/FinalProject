@@ -10,6 +10,7 @@ nodes.v
 encoder.v
 sum_and_decoder.v
 full_node_tree_tb.v
+-sv
 -CDSLIB
 ./xcelium.d/run.lnx8664.23.09.d/cdsrun.lib
 -HDLVAR

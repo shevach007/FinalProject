@@ -1,7 +1,7 @@
 module Full_Node_Tree_tb;
 
     // Parameters
-    parameter N_of_numbers = 3;
+    parameter N_of_numbers = 5;
     parameter N_of_bits = 4;
 
     // Testbench signals
@@ -89,7 +89,7 @@ module Full_Node_Tree_tb;
         //verify_target(1);
 
          $display("Starting Test 2:");
-         apply_stimulus({4'd4, 4'd6, 4'd12, 4'd14, 4'd8}, 1, 5'd22, 1); //fails
+         apply_stimulus({ 4'd14,4'd4, 4'd6, 4'd12, 4'd8 }, 1, 5'd20, 1); //fails
          verify_target(1);
 
 
